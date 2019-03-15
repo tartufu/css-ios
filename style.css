@@ -1,0 +1,51 @@
+.phone-wallpaper {
+	width: 422px;
+	height: 740px;
+	background-color: green;
+	position: relative;
+	bottom: 860px;
+	left: 27px;
+	background-image: url(Wallpaper/Default.jpg);
+} /* set background and then shifted around manually with position relatives  */
+
+.phone-icons-container {
+	width: 422px;
+	height: 740px;
+} /* phone-icons container same size as phone wallpaper class */
+
+.phone-icons {
+	display: inline-block; /* as it is inline-block, it will flow to the next 'line' if there's no space */
+	position: relative;
+	bottom: 1550px;
+	left: 32px;
+}
+
+.phone-icons img, .phone-dock-icons img  {
+	width: 80px;
+	height: 80px;
+	padding: 10px 10px 0px 10px;
+	border-radius: 20px; /* border radius to give it the rounded corners */
+}
+
+.phone-icons p {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.phone-dock {
+	width: 422px;
+	height: 120px;
+	background-color: white;
+	position: relative;
+	bottom: 1720px;
+	left: 27px;
+	opacity: 0.7; /* makes the div 70% transparent */
+}
+
+.phone-dock-icons {
+	z-index: 10;
+	position: relative;
+	bottom: 1830px;
+	left: 29px;
+}
